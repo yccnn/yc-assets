@@ -18,7 +18,7 @@
 
 @font-face {
     font-family: "mjfont1";
-    src: url("../fonts/mjfont1.woff2");
+    src: url(https://jsd.onmicrosoft.cn/gh/yccnn/yc-assets@main/home/fonts/mjfont1.woff2);
 }
 
 /* 隐藏滚动条 */
@@ -31,7 +31,7 @@ body {
     font-family: "mjfont1";
     background-color: #f9f5e9;
     /* 普通指针样式*/
-    cursor: url(../fonts/Arrow.cur), default;
+    cursor: url(https://jsd.onmicrosoft.cn/gh/yccnn/yc-assets@main/home/fonts/Arrow.cur), default;
 }
 
 a:hover {
@@ -40,7 +40,7 @@ a:hover {
 }
 
 p:hover {
-    cursor: url(../fonts/Text.cur), text;
+    cursor: url(https://jsd.onmicrosoft.cn/gh/yccnn/yc-assets@main/home/fonts/Text.cur), text;
 }
 
 
