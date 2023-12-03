@@ -39,6 +39,7 @@ a:hover {
     cursor: url(../fonts/Link\ Select.cur), pointer;
 }
 
+
 p:hover {
     cursor: url(https://jsd.onmicrosoft.cn/gh/yccnn/yc-assets@main/home/fonts/Text.cur), text;
 }
@@ -168,42 +169,32 @@ marquee {
 
 /* 左下角悬浮音乐卡片 */
 .xfyykp {
-    width: 200px;
-    height: 140px;
+    width: 300px;
+    height: 150px;
     position: fixed;
     left: -300px;
-    bottom: 130px;
+    bottom: 70px;
     z-index: 999;
     border-radius: 0 20px 20px 0;
-    background: url(https://pic5.58cdn.com.cn/nowater/webim/big/n_v2f9e97dc33d5349a5baafcd06d7c3fef0.png) no-repeat top;
+    background: url(https://wmimg.com/i/328/2023/12/656bf6d2bab5b.png) no-repeat top;
     background-size: 100% auto;
-    padding-top: 30px;
+    padding-top: 60px;
     transition: left 1s linear 0s;
 }
 
 .bfq {
     width: 100%;
-    height: 140px;
+    height: 150px;
     background-image: linear-gradient(180deg, #FFF2EF 0%, #FFFFFF 50%);
     box-shadow: rgb(255, 209, 216) 0px 1px 4px 0px inset;
     display: flex;
-    padding-top: 10px;
-}
-
-.yykjtop{
-    display: flex;
-}
-
-.gqxx{
-    width: 120px;
-    height: 60px;
-    padding: 0 5px;
+    align-items: center;
+    padding-left: 10px;
 }
 
 .yyfm {
-    width: 50px;
-    height: 50px;
-    flex-shrink: 0;/*防止被压缩*/
+    width: 80px;
+    height: 80px;
 }
 
 .yyfm img {
@@ -215,13 +206,14 @@ marquee {
 
 .yykj {
     width: 210px;
-    padding: 0 10px;
+    padding: 10px;
 }
 
 .yykj h2 {
     color: #ffa9b8;
     text-align: center;
     font-weight: bold;
+    font-size: 20px;
     padding-top: 10px;
     height: 40px;
     white-space: nowrap;
@@ -237,7 +229,6 @@ marquee {
     font-weight: bold;
     text-align: center;
     margin-bottom: 5px;
-    font-size: 13px;
 }
 
 .xys:active {
@@ -305,21 +296,21 @@ marquee {
 }
 
 .zkan {
-    width: 30px;
-    height: 140px;
-    line-height: 160px;
+    width: 40px;
+    height: 150px;
+    line-height: 180px;
     background-color: #FFD1D8;
     position: absolute;
     border-radius: 0 15px 15px 0;
-    right: -30px;
-    top: 30px;
+    right: -40px;
+    top: 60px;
 }
 
 .zkan svg {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     transform: scaleX(1);
-    transition: transform 0.5s linear 0s;
+    transition: transform 1s linear 0s;
 }
 
 /* 悬浮卡片 */
@@ -337,7 +328,7 @@ marquee {
     background-repeat: no-repeat;
     background-size: 130px;
     box-shadow: 0px 0px 8px rgba(236, 59, 136, 0.35);
-    background-image: url(https://i2.100024.xyz/2023/12/03/hdvd4n.webp);
+    background-image: url(https://wmimg.com/i/328/2023/12/656bf75747ccd.png);
     transition: right 1s linear 0s;
     z-index: 3;
     animation: myfirst 3s;
@@ -459,7 +450,7 @@ marquee {
     width: 475px;
     height: 175px;
     padding-top: 38px;
-    background: url(https://pic5.58cdn.com.cn/nowater/webim/big/n_v2f9e97dc33d5349a5baafcd06d7c3fef0.png) no-repeat top;
+    background: url(https://wmimg.com/i/328/2023/12/656bf6d2bab5b.png) no-repeat top;
     background-size: 100% auto;
     transition: right 2s linear 0s;
     animation: skmdh 2s;
@@ -665,7 +656,7 @@ marquee {
     margin: 50px auto;
     width: 250px;
     text-align: center;
-    background: url(https://pic8.58cdn.com.cn/nowater/webim/big/n_v2fc99c846731e46138cd54a4c9eec726f.png) no-repeat top;
+    background: url(https://wmimg.com/i/328/2023/12/656bf6f05f533.png) no-repeat top;
     background-size: 100% 100%;
 }
 
